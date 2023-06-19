@@ -1,0 +1,32 @@
+{
+    "TestConfig": {
+        "TestEnv": "QA", //Dev
+        //  "Browser": "chrome",
+
+        "QAConfig": {
+            "URL": "https://www.amazon.com/",
+            "username1": "",
+            "pwd": ""
+        },
+
+        "DevConfig": {
+            "URL": "https://www.amazon.com/",
+            "username1": "",
+            "pwd": ""
+        },
+
+        "ProdConfig": {
+            "URL": "https://www.amazon.com/",
+            "username1": "",
+            "pwd": ""
+        }
+
+
+
+
+
+
+    }
+
+
+}
