@@ -8,7 +8,7 @@ Scenario: Amazon Dashboard
 	Given user sees tabs
 	| tabs             |
 	| Clinic           |
-	| Best Sellerss     |
+	| Best Sellers     |
 	| Customer Service |
 	#When the two numbers are added
 	#Then the result should be 120

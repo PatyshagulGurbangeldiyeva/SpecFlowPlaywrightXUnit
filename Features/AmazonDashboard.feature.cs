@@ -114,7 +114,7 @@ this.FeatureBackground();
                 table1.AddRow(new string[] {
                             "Clinic"});
                 table1.AddRow(new string[] {
-                            "Best Sellerss"});
+                            "Best Sellers"});
                 table1.AddRow(new string[] {
                             "Customer Service"});
 #line 8
