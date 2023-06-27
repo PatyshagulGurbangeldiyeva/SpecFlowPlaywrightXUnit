@@ -69,5 +69,12 @@ namespace SpecFlowPlaywrightXUnit.StepDefinitions
             //how to verify count of Pages
         }
 
+        [Then(@"User sees AmazonClinic icon and ""([^""]*)""")]
+        public void ThenUserSeesAmazonClinicIconAnd(string p0)
+        {
+            throw new PendingStepException();
+        }
+
+
     }
 }

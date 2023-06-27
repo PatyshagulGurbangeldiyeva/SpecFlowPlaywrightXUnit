@@ -14,6 +14,7 @@ namespace SpecFlowPlaywrightXUnit.StepDefinitions
         public IBrowserContext context;
         public static int numberOfFailedTests;
         private ScenarioContext _scenarioContext;
+        public IPlaywright playwright;
         
         
         public Hooks( ScenarioContext scenarioContext )
@@ -25,7 +26,7 @@ namespace SpecFlowPlaywrightXUnit.StepDefinitions
         public async Task BeforeScenario()
         {
             SetUpClass.TestSetUp();
-            var playwright=await Playwright.CreateAsync();
+            playwright=await Playwright.CreateAsync();
             var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
             {
                 Headless = false,
@@ -90,6 +91,8 @@ namespace SpecFlowPlaywrightXUnit.StepDefinitions
                 });
             }
             await Driver.CloseAsync();
+            await context.CloseAsync();
+            playwright.Dispose();
         }
     }
 }
