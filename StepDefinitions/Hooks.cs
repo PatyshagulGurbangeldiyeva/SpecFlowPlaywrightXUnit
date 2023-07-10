@@ -68,7 +68,7 @@ namespace SpecFlowPlaywrightXUnit.StepDefinitions
          //   if (_scenarioContext.ScenarioExecutionStatus!=ScenarioExecutionStatus.OK) { } >> another way to check scenario failed or not
 
 
-            if (_scenarioContext.TestError != null)
+            if (_scenarioContext.TestError != null && _scenarioContext.ScenarioExecutionStatus != ScenarioExecutionStatus.OK)
             {
                 numberOfFailedTests++;
                 await context.Tracing.StopAsync(new()

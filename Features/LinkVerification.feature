@@ -15,4 +15,4 @@ Scenario: Verify Amazon icon has link
 Scenario:Verify selected link is opened on the same window
 Given User clicks on Clinic tab
 And User navigates Clinic page on the same window
-Then User sees AmazonClinic icon and "https://clinic.amazon.com/?nodl=0&ref_=nav_cs_clinic"
+Then User sees AmazonClinic icon and "https://clinic.amazon.com/?nodl=0&ref_=nav_cs_clinics"
