@@ -364,5 +364,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /Features/AmazonDashboard.feature.cs
 
-**.feature.cs
+*.feature.cs
 
