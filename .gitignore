@@ -9,6 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.feature.cs
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -364,5 +366,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /Features/AmazonDashboard.feature.cs
 
-*.feature.cs
 
