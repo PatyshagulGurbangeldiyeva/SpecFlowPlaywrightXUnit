@@ -363,5 +363,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Features/AmazonDashboard.feature.cs
-*.feature.cs
+
+**.feature.cs
 
